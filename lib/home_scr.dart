@@ -26,14 +26,13 @@ class _home_scrState extends State<home_scr> {
         backgroundColor: Colors.black,
         automaticallyImplyLeading: false,
       ),
-
       body: SafeArea(
           child: Column(
         children: [
           Expanded(
             flex: 2,
             child: Padding(
-              padding: EdgeInsets.symmetric(vertical: 20),
+              padding: EdgeInsets.symmetric(vertical: 18),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.end,
                 mainAxisAlignment: MainAxisAlignment.end,
